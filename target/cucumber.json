@@ -1,0 +1,324 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 5617704400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "que acesso o ecommerce",
+            "match": {
+              "location": "CommonSteps.acessarEcommerce()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-07-11T12:29:58.061Z",
+        "line": 15,
+        "name": "Realizar login",
+        "description": "",
+        "id": "realizar-login;realizar-login;;2",
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 1229460400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "aciono opção para me autenticar",
+            "match": {
+              "location": "LoginSteps.realizarLogin()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 419674300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "insiro os dados de \"drd.brusa93@gmail.com\" e \"sxB7ix2722\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "drd.brusa93@gmail.com",
+                  "offset": 20
+                },
+                {
+                  "val": "sxB7ix2722",
+                  "offset": 46
+                }
+              ],
+              "location": "LoginSteps.entrarLogin(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 4563310400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "autenticacao sera realizada com sucesso",
+            "match": {
+              "location": "LoginSteps.finalizarLogin()"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      }
+    ],
+    "name": "Realizar login",
+    "description": "",
+    "id": "realizar-login",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features/EfetuarLogin.feature",
+    "tags": []
+  },
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2023-07-11T12:30:09.943Z",
+        "line": 11,
+        "name": "Inserir Stylish Dress no carrinho",
+        "description": "",
+        "id": "escolher-produtos;inserir-stylish-dress-no-carrinho;;2",
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 6270129800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "pesquiso o produto \"Stylish Dress\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Stylish Dress",
+                  "offset": 20
+                }
+              ],
+              "location": "ProdutosSteps.pesquisarProduto(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 5327365700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "coloco o produto no carrinho com a quantidade desejada \"3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 56
+                }
+              ],
+              "location": "ProdutosSteps.adicionarProduto(String)"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-07-11T12:30:21.557Z",
+        "line": 18,
+        "name": "Inserir Beautiful Peacock Blue Cotton Linen Saree no carrinho",
+        "description": "",
+        "id": "escolher-produtos;inserir-beautiful-peacock-blue-cotton-linen-saree-no-carrinho;;2",
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 9782879400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "pesquiso o produto \"Beautiful Peacock Blue Cotton Linen Saree\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Beautiful Peacock Blue Cotton Linen Saree",
+                  "offset": 20
+                }
+              ],
+              "location": "ProdutosSteps.pesquisarProduto(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 4720603700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "coloco o produto no carrinho com a quantidade desejada \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 56
+                }
+              ],
+              "location": "ProdutosSteps.adicionarProduto(String)"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-07-11T12:30:36.070Z",
+        "line": 26,
+        "name": "Inserir Men Tshirt no carrinho",
+        "description": "",
+        "id": "escolher-produtos;inserir-men-tshirt-no-carrinho;;2",
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 8111673700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "pesquiso o produto \"Men Tshirt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Men Tshirt",
+                  "offset": 20
+                }
+              ],
+              "location": "ProdutosSteps.pesquisarProduto(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 3382576100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "coloco o produto no carrinho com a quantidade desejada \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 56
+                }
+              ],
+              "location": "ProdutosSteps.adicionarProduto(String)"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 11346885300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "aciono a opção para ir ao carrinho finalizando a compra",
+            "match": {
+              "location": "ProdutosSteps.visualizarCarrinho()"
+            },
+            "keyword": "E "
+          }
+        ]
+      }
+    ],
+    "name": "Escolher produtos",
+    "description": "",
+    "id": "escolher-produtos",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features/EscolherProdutos.feature",
+    "tags": []
+  },
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2023-07-11T12:30:58.922Z",
+        "line": 11,
+        "name": "Finalizar compra",
+        "description": "",
+        "id": "finalizar-compra-e-efetuar-pagamento-com-cartão;finalizar-compra;;2",
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 1027686200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "inserido os dados de pagamento \"Eduardo Brusamolin\" \"5118432675907813\" \"896\" \"12\" \"2024\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Eduardo Brusamolin",
+                  "offset": 32
+                },
+                {
+                  "val": "5118432675907813",
+                  "offset": 53
+                },
+                {
+                  "val": "896",
+                  "offset": 72
+                },
+                {
+                  "val": "12",
+                  "offset": 78
+                },
+                {
+                  "val": "2024",
+                  "offset": 83
+                }
+              ],
+              "location": "PagamentoSteps.dadosPagamento(String,String,String,String,String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status\nfrom disconnected: unable to send message to renderer\n  (Session info: chrome\u003d114.0.5735.199)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027SPWB005XM3\u0027, ip: \u0027192.168.1.7\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002718.0.1.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\\Users\\EBRUSA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:51971}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 76f5cd1f1e557dd6388ce09524ab2141\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:577)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)\r\n\tat pages.PagamentoPage.finalizarCompra(PagamentoPage.java:28)\r\n\tat steps.PagamentoSteps.finalizarCompra(PagamentoSteps.java:20)\r\n\tat ✽.finalizo a compra com sucesso(file:src/test/resources/features/ProcessarPagamento.feature:8)\r\n",
+              "duration": 24557209100,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "finalizo a compra com sucesso",
+            "match": {
+              "location": "PagamentoSteps.finalizarCompra()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      }
+    ],
+    "name": "Finalizar compra e efetuar pagamento com cartão",
+    "description": "",
+    "id": "finalizar-compra-e-efetuar-pagamento-com-cartão",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features/ProcessarPagamento.feature",
+    "tags": []
+  }
+]

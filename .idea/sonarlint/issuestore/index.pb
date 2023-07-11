@@ -1,0 +1,33 @@
+
+Y
+)src/test/java/elements/LoginElements.java,3\b\3bf0ce17fde550458f94faabd89c52f371b4bae3
+S
+#src/test/java/pages/CommonPage.java,d\4\d4d134b1447a0b225a6658351ee7e1983b1ca16f
+\
+,src/test/java/elements/ProdutosElements.java,b\b\bbc6ef7051d8ce18d496a3e642046915a4d67af4
+V
+&src/test/java/steps/ProdutosSteps.java,6\9\69c782895424aa997a5c897dcf2ca284b3c1af0e
+U
+%src/test/java/pages/ProdutosPage.java,e\7\e7852783b4cee537bbe3d4f3f989e3f98acbd68f
+V
+&src/test/java/pages/PagamentoPage.java,0\f\0f39ea62f2f77f0e2b961184b222af998fe29c86
+]
+-src/test/java/elements/PagamentoElements.java,8\1\81b6a745e88748db0c8b4e30f243d9fa44b88d44
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+N
+src/test/java/utils/Utils.java,f\9\f9d95ea4e3a3a8a66868963603ed0fead1379351
+P
+ src/test/java/tests/RunTest.java,d\3\d354e318eb6ef0cb04e52b7d349a9e7700526edb
+S
+#src/test/java/steps/LoginSteps.java,6\0\60a999fa2ae56d1081f61fa5b8a47ecba8253150
+R
+"src/test/java/pages/LoginPage.java,2\f\2febc867dad266b12f3cf09596e572e0dcf37dbf
+W
+'src/test/java/steps/PagamentoSteps.java,6\3\63858dff7f729c286321e99a2861b0b0cf28dddc
+Q
+!src/test/java/utils/TestRule.java,d\8\d8be22a333679b94e11fa6d30aac57cf074d0ab3
+T
+$src/test/java/steps/CommonSteps.java,c\3\c3e17c5e35bdae3affe76bf677830e32667747b7
