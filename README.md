@@ -37,4 +37,4 @@ Pages: Onde será mapeado os elementos e funções.
 Steps: Onde ficara os passos da automação.
 Utils: Classes com algumas funções uteis para o projeto.
 Features: Onde fica as funcionalidades do projeto.
-```# automation-ecommerce
+```
